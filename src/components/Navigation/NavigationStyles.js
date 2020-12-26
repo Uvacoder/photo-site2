@@ -9,6 +9,7 @@ export const StyledNav = styled.nav`
   display: inline-flex;
   align-items: center;
   color: #a6a6a6;
+  font-size: 16px;
 `;
 
 export const StyledNavLink = styled(NavLink)`
