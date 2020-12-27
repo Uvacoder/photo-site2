@@ -30,6 +30,7 @@ export const StyledNavLink = styled(NavLink).attrs({
 })`
   margin-left: 12px;
   text-decoration: none;
+  color: #a6a6a6;
   &:visited {
     color: #a6a6a6;
   }

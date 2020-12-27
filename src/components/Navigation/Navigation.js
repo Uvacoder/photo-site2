@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+
 import {
   StyledCenterSpan,
   StyledHamburger,
@@ -14,10 +15,10 @@ import logo from "../../logo.png";
 export default class Navigation extends Component {
   constructor(props) {
     super(props);
-    this.collapse = this.collapse.bind(this);
+    this.toggle = this.toggle.bind(this);
   }
 
-  collapse() {
+  toggle() {
     const hamburger = document.querySelector(".hamburger");
     hamburger.classList.toggle("is-active");
   }
@@ -33,7 +34,7 @@ export default class Navigation extends Component {
         <StyledHamburger
           className="hamburger hamburger--collapse"
           type="button"
-          onClick={this.collapse}
+          onClick={this.toggle}
         >
           <span className="hamburger-box">
             <span className="hamburger-inner" />
