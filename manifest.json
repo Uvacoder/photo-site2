@@ -1,8 +1,9 @@
 {
-  "name": "Kaylin Moss Emotive Photography",
   "homepage": "https://kaylinm.github.io/photography",
   "scripts": {
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"}
-
+    "deploy": "gh-pages -d build"
+  },
+  "short_name": "Kaylin Moss",
+  "name": "Kaylin Moss Photography"
 }
