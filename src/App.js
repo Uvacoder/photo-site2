@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-} from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
@@ -28,7 +23,8 @@ const App = () => {
           <Route exact path="/despair" component={Despair} />
           <Route exact path="/tranquility" component={Tranquility} />
           <Route exact path="/about" component={About} />
-          <Redirect to="/" />
+
+          {/*} <Redirect to="/" />*/}
         </Switch>
       </Router>
       <Footer />
