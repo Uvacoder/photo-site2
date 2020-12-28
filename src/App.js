@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <section className="App">
-      <Router basename="photography">
+      <Router>
         <Navigation />
         <Switch>
           <Route exact path="/" component={Home} />
