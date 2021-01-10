@@ -1,16 +1,62 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
+import "./About.css";
 import about from "./about.jpg";
 
 const About = () => {
   return (
-    <section className="About">
-      <Link to="/">Home</Link>
-      {/* use Link for internal links*/}
-      <a href="https://google.com">google link</a>{" "}
-      {/* use href for external links*/}
-    </section>
+    <main>
+      <section className="about">
+        <div className="column">
+          <h1>
+            Landscape photographer + <br />
+            Computer scientist
+          </h1>
+          <h2>Awards —</h2>
+          <a href="https://www.instagram.com/p/CErVYMjDjIS/?utm_source=ig_web_copy_link">
+            Polarr Feature
+          </a>
+          <p>Marist College Autumn Photography Competition Finalist</p>
+          <br />
+          <h2>Story —</h2>
+          <p>
+            Kaylin Moss is a photographer like no other, transforming landscapes
+            into emotional journeys. She was raised in Charleston, South
+            Carolina, where her attachment to the natural world was birthed.
+            <br />
+            <br />
+            While charming southern coastlines are incorporated in Kaylin's
+            work, her adventures often bring her far from home. She is
+            continually exploring new forests, mountains, and terrains along the
+            U.S. eastern coast.
+            <br />
+            <br />
+            See how she bends tradition in her{" "}
+            <Link to="/nostalgia">Nostalgia </Link> series, follows the sun in{" "}
+            <Link to="/joy">Joy</Link>, plays with shadows in{" "}
+            <Link to="/despair">Despair</Link>, and creates unique waterscapes
+            in <Link to="/tranquility">Tranquility</Link>.
+            <br />
+            <br />
+            Kaylin is currently a computer science student at Marist College, in
+            Poughkeepsie NY
+          </p>
+        </div>
+        <div className="column">
+          <img
+            src={about}
+            alt="A young woman with brown skin, and black curly hair wearing a black sweater."
+          />
+        </div>
+      </section>
+    </main>
   );
 };
 
 export default About;
+/*
+        <Link to="/">Home</Link>
+        use Link for internal links
+<a href="https://google.com">google link</a>
+/* use href for external links*/
