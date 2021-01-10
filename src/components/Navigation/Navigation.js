@@ -1,15 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-import {
-  StyledCenterSpan,
-  StyledHamburger,
-  StyledLeftSpan,
-  StyledNav,
-  StyledNavLink,
-  StyledNavLogo,
-  StyledRightSpan,
-} from "./NavigationStyles";
+import "./Navigation.css";
 import logo from "../../logo.png";
 
 export default class Navigation extends Component {
@@ -25,13 +18,13 @@ export default class Navigation extends Component {
 
   render() {
     return (
-      <StyledNav id="navContainer">
-        <StyledLeftSpan>
+      <nav id="navContainer">
+        <span>
           <Link to="/">
-            <StyledNavLogo src={logo} alt="logo" />
+            <img src={logo} alt="logo" id="logo" />
           </Link>
-        </StyledLeftSpan>
-        <StyledHamburger
+        </span>
+        <button
           className="hamburger hamburger--collapse"
           type="button"
           onClick={this.toggle}
@@ -39,39 +32,27 @@ export default class Navigation extends Component {
           <span className="hamburger-box">
             <span className="hamburger-inner" />
           </span>
-        </StyledHamburger>
-        <StyledCenterSpan>Capturing the emotions of the Earth</StyledCenterSpan>
+        </button>
+        <span className="center-span">Capturing the emotions of the Earth</span>
 
-        <StyledRightSpan>
-          <StyledNavLink
-            className="item"
-            activeClassName="active"
-            to="/nostalgia"
-          >
+        <span className="right-span">
+          <NavLink className="item" activeClassName="active" to="/nostalgia">
             Nostalgia
-          </StyledNavLink>
-          <StyledNavLink className="item" activeClassName="active" to="/joy">
+          </NavLink>
+          <NavLink className="item" activeClassName="active" to="/joy">
             Joy
-          </StyledNavLink>
-          <StyledNavLink
-            className="item"
-            activeClassName="active"
-            to="/despair"
-          >
+          </NavLink>
+          <NavLink className="item" activeClassName="active" to="/despair">
             Despair
-          </StyledNavLink>
-          <StyledNavLink
-            className="item"
-            activeClassName="active"
-            to="/tranquility"
-          >
+          </NavLink>
+          <NavLink className="item" activeClassName="active" to="/tranquility">
             Tranquility
-          </StyledNavLink>
-          <StyledNavLink className="item" activeClassName="active" to="/about">
+          </NavLink>
+          <NavLink className="item" activeClassName="active" to="/about">
             About
-          </StyledNavLink>
-        </StyledRightSpan>
-      </StyledNav>
+          </NavLink>
+        </span>
+      </nav>
     );
   }
 }

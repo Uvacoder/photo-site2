@@ -1,0 +1,59 @@
+@import "hamburgers.css";
+
+nav {
+  margin: 1.5vw auto;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  width: 90%;
+  display: inline-flex;
+  align-items: center;
+  color: #a6a6a6;
+  font-size: 16px;
+}
+
+.center-span {
+  margin: 0 auto;
+}
+#logo {
+  max-width: 210px;
+}
+.item {
+  margin-left: 12px;
+  text-decoration: none;
+  color: #a6a6a6;
+}
+.item:visited {
+  color: #a6a6a6;
+}
+.item:hover,
+.item.active {
+  color: #333;
+}
+.hamburger {
+  display: none;
+}
+
+/* mobile styling */
+@media only screen and (max-width: 650px) {
+  nav {
+    width: 80%;
+    margin-top: 10%;
+    display: block;
+  }
+
+  .center-span {
+    margin-top: 20px;
+    display: block;
+    font-size: 16px;
+  }
+  .right-span {
+    display: none;
+  }
+  #logo {
+    max-width: 100px;
+  }
+  .hamburger {
+    display: inline;
+    float: right;
+  }
+}
