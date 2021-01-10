@@ -14,9 +14,11 @@ nav {
 .center-span {
   margin: 0 auto;
 }
+
 #logo {
   max-width: 210px;
 }
+
 .item {
   margin-left: 12px;
   text-decoration: none;
@@ -29,7 +31,11 @@ nav {
 .item.active {
   color: #333;
 }
+
 .hamburger {
+  display: none;
+}
+.mobile-nav {
   display: none;
 }
 
@@ -46,12 +52,41 @@ nav {
     display: block;
     font-size: 16px;
   }
+
   .right-span {
     display: none;
   }
+
+  .mobile-nav {
+    display: none;
+    background: white;
+  }
+  .mobile-nav.is-active {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+  }
+  .mobile-items {
+    margin: auto;
+    width: 50%;
+    padding-top: 40%;
+    padding-bottom: 40%;
+  }
+  .item {
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    letter-spacing: 0.12em;
+    line-height: 1.8em;
+  }
+
   #logo {
     max-width: 100px;
   }
+
   .hamburger {
     display: inline;
     float: right;

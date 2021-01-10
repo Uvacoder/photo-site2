@@ -14,6 +14,9 @@ export default class Navigation extends Component {
   toggle() {
     const hamburger = document.querySelector(".hamburger");
     hamburger.classList.toggle("is-active");
+
+    const mobileNav = document.querySelector(".mobile-nav");
+    mobileNav.classList.toggle("is-active");
   }
 
   render() {
@@ -52,6 +55,50 @@ export default class Navigation extends Component {
             About
           </NavLink>
         </span>
+        <div className="mobile-nav">
+          <div className="mobile-items">
+            <NavLink
+              className="item"
+              activeClassName="active"
+              to="/nostalgia"
+              onClick={this.toggle}
+            >
+              Nostalgia
+            </NavLink>
+            <NavLink
+              className="item"
+              activeClassName="active"
+              to="/joy"
+              onClick={this.toggle}
+            >
+              Joy
+            </NavLink>
+            <NavLink
+              className="item"
+              activeClassName="active"
+              to="/despair "
+              onClick={this.toggle}
+            >
+              Despair
+            </NavLink>
+            <NavLink
+              className="item"
+              activeClassName="active"
+              to="/tranquility"
+              onClick={this.toggle}
+            >
+              Tranquility
+            </NavLink>
+            <NavLink
+              className="item"
+              activeClassName="active"
+              to="/about"
+              onClick={this.toggle}
+            >
+              About
+            </NavLink>
+          </div>
+        </div>
       </nav>
     );
   }
