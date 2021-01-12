@@ -1,0 +1,19 @@
+#home {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+.home {
+}
+
+.home .column {
+  display: flex;
+  flex-direction: column;
+}
+
+.home .column img {
+  display: block;
+  max-width: 100%;
+}
