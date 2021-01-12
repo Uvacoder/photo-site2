@@ -3,13 +3,13 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
-import Home from "./components/Home";
+import Home from "./components/Home/Home";
 import Nostalgia from "./components/Nostalgia";
 import Joy from "./components/Joy";
 import Despair from "./components/Despair";
 import Tranquility from "./components/Tranquility";
 import About from "./components/About/About";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (

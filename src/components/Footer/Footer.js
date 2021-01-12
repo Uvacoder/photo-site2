@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <section className="Footer">
-      <h1>This is the Footer </h1>
+      <p>&copy;COPYRIGHT KAYLIN MOSS 2020</p>
     </section>
   );
 };

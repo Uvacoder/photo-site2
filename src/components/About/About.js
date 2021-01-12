@@ -55,8 +55,3 @@ const About = () => {
 };
 
 export default About;
-/*
-        <Link to="/">Home</Link>
-        use Link for internal links
-<a href="https://google.com">google link</a>
-/* use href for external links*/

@@ -12,6 +12,9 @@ export default class Navigation extends Component {
   }
 
   toggle() {
+    const html = document.documentElement;
+    html.classList.toggle("is-active");
+
     const hamburger = document.querySelector(".hamburger");
     hamburger.classList.toggle("is-active");
 
