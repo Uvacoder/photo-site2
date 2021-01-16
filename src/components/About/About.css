@@ -42,12 +42,3 @@ h2 {
 .about a:hover {
   transform: scale(1.1);
 }
-
-@media only screen and (max-width: 650px) {
-  h1 {
-    font-size: 20px;
-  }
-  h2 {
-    font-size: 18px;
-  }
-}
