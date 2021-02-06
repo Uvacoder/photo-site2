@@ -14,7 +14,11 @@ const About = () => {
             Computer scientist
           </h1>
           <h2>Awards —</h2>
-          <a href="https://www.instagram.com/p/CErVYMjDjIS/?utm_source=ig_web_copy_link">
+          <a
+            href="https://www.instagram.com/p/CErVYMjDjIS/?utm_source=ig_web_copy_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Polarr Feature
           </a>
           <p>Marist College Autumn Photography Competition Finalist</p>
