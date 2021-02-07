@@ -32,7 +32,10 @@ const Joy = () => {
     <section className="gallery">
       <SRLWrapper>
         <a href={joy1}>
-          <img src={joy1thumbnail} alt="Blankets - Amelia Island, Florida" />
+          <img
+            src={joy1thumbnail}
+            alt="Summer Liberation - New Paltz, New York"
+          />
         </a>
 
         <a href={joy2}>
@@ -48,10 +51,7 @@ const Joy = () => {
         </a>
 
         <a href={joy5}>
-          <img
-            src={joy5thumbnail}
-            alt="Summer Liberation - New Paltz, New York"
-          />
+          <img src={joy5thumbnail} alt="Blankets - Amelia Island, Florida" />
         </a>
 
         <a href={joy6}>

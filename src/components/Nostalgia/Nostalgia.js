@@ -30,7 +30,7 @@ const Nostalgia = () => {
         <a href={nostalgia1}>
           <img
             src={nostalgia1thumbnail}
-            alt="Ephemeral Recollections - Cornwall, New York"
+            alt="Timeless - Mount Pleasant, South Carolina"
           />
         </a>
 
@@ -44,7 +44,7 @@ const Nostalgia = () => {
         <a href={nostalgia3}>
           <img
             src={nostalgia3thumbnail}
-            alt="Timeless - Mount Pleasant, South Carolina"
+            alt="Ephemeral Recollections - Cornwall, New York"
           />
         </a>
 

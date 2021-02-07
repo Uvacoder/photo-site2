@@ -7,7 +7,7 @@ import Home from "./components/Home/Home";
 import Nostalgia from "./components/Nostalgia/Nostalgia";
 import Joy from "./components/Joy/Joy";
 import Despair from "./components/Despair/Despair";
-import Tranquility from "./components/Tranquility";
+import Tranquility from "./components/Tranquility/Tranquility";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 
