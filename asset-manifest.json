@@ -1,18 +1,30 @@
 {
   "files": {
     "main.css": "/photography/static/css/main.290a1b33.chunk.css",
-    "main.js": "/photography/static/js/main.dcdfadab.chunk.js",
-    "main.js.map": "/photography/static/js/main.dcdfadab.chunk.js.map",
+    "main.js": "/photography/static/js/main.da47bdb9.chunk.js",
+    "main.js.map": "/photography/static/js/main.da47bdb9.chunk.js.map",
     "runtime-main.js": "/photography/static/js/runtime-main.4a39d067.js",
     "runtime-main.js.map": "/photography/static/js/runtime-main.4a39d067.js.map",
-    "static/js/2.3ea343f0.chunk.js": "/photography/static/js/2.3ea343f0.chunk.js",
-    "static/js/2.3ea343f0.chunk.js.map": "/photography/static/js/2.3ea343f0.chunk.js.map",
+    "static/js/2.f4d15bbb.chunk.js": "/photography/static/js/2.f4d15bbb.chunk.js",
+    "static/js/2.f4d15bbb.chunk.js.map": "/photography/static/js/2.f4d15bbb.chunk.js.map",
     "static/js/3.87f001cc.chunk.js": "/photography/static/js/3.87f001cc.chunk.js",
     "static/js/3.87f001cc.chunk.js.map": "/photography/static/js/3.87f001cc.chunk.js.map",
     "index.html": "/photography/index.html",
     "static/css/main.290a1b33.chunk.css.map": "/photography/static/css/main.290a1b33.chunk.css.map",
-    "static/js/2.3ea343f0.chunk.js.LICENSE.txt": "/photography/static/js/2.3ea343f0.chunk.js.LICENSE.txt",
+    "static/js/2.f4d15bbb.chunk.js.LICENSE.txt": "/photography/static/js/2.f4d15bbb.chunk.js.LICENSE.txt",
     "static/media/about.8b768ec7.jpg": "/photography/static/media/about.8b768ec7.jpg",
+    "static/media/despair1.85f6dddc.jpg": "/photography/static/media/despair1.85f6dddc.jpg",
+    "static/media/despair1thumbnail.c3715b46.jpg": "/photography/static/media/despair1thumbnail.c3715b46.jpg",
+    "static/media/despair2.7261faf7.JPG": "/photography/static/media/despair2.7261faf7.JPG",
+    "static/media/despair2thumbnail.f7f2e806.jpg": "/photography/static/media/despair2thumbnail.f7f2e806.jpg",
+    "static/media/despair3.98a92835.jpg": "/photography/static/media/despair3.98a92835.jpg",
+    "static/media/despair3thumbnail.71fc22ba.jpg": "/photography/static/media/despair3thumbnail.71fc22ba.jpg",
+    "static/media/despair4.d412abc6.jpg": "/photography/static/media/despair4.d412abc6.jpg",
+    "static/media/despair4thumbnail.264e9700.jpg": "/photography/static/media/despair4thumbnail.264e9700.jpg",
+    "static/media/despair5.9be50cba.jpg": "/photography/static/media/despair5.9be50cba.jpg",
+    "static/media/despair5thumbnail.6419ebc4.jpg": "/photography/static/media/despair5thumbnail.6419ebc4.jpg",
+    "static/media/despair6.0bef575b.jpg": "/photography/static/media/despair6.0bef575b.jpg",
+    "static/media/despair6thumbnail.cdd257ab.jpg": "/photography/static/media/despair6thumbnail.cdd257ab.jpg",
     "static/media/home1.2d7fd94d.png": "/photography/static/media/home1.2d7fd94d.png",
     "static/media/home2.5fe530ba.png": "/photography/static/media/home2.5fe530ba.png",
     "static/media/home3.e3fb5e24.png": "/photography/static/media/home3.e3fb5e24.png",
@@ -65,8 +77,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4a39d067.js",
-    "static/js/2.3ea343f0.chunk.js",
+    "static/js/2.f4d15bbb.chunk.js",
     "static/css/main.290a1b33.chunk.css",
-    "static/js/main.dcdfadab.chunk.js"
+    "static/js/main.da47bdb9.chunk.js"
   ]
 }
