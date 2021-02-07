@@ -1,7 +1,6 @@
 import React from "react";
 import { SRLWrapper } from "simple-react-lightbox";
 
-import "./Nostalgia.css";
 import nostalgia1 from "./full-size/nostalgia1.JPG";
 import nostalgia2 from "./full-size/nostalgia2.jpg";
 import nostalgia3 from "./full-size/nostalgia3.JPG";
@@ -26,7 +25,7 @@ import nostalgia10thumbnail from "./thumbnails/nostalgia10thumbnail.jpg";
 
 const Nostalgia = () => {
   return (
-    <section className="nostalgia">
+    <section className="gallery">
       <SRLWrapper>
         <a href={nostalgia1}>
           <img
