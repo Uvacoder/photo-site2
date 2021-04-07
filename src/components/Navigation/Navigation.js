@@ -79,7 +79,7 @@ export default class Navigation extends Component {
             <NavLink
               className="item"
               activeClassName="active"
-              to="/despair "
+              to="/despair"
               onClick={this.toggle}
             >
               Despair
