@@ -1,6 +1,8 @@
 import React from "react";
 import { SRLWrapper } from "simple-react-lightbox";
 
+import GoToTop from "../GoToTop";
+
 import nostalgia1 from "./full-size/nostalgia1.JPG";
 import nostalgia2 from "./full-size/nostalgia2.jpg";
 import nostalgia3 from "./full-size/nostalgia3.JPG";
@@ -11,6 +13,8 @@ import nostalgia7 from "./full-size/nostalgia7.jpg";
 import nostalgia8 from "./full-size/nostalgia8.jpg";
 import nostalgia9 from "./full-size/nostalgia9.JPG";
 import nostalgia10 from "./full-size/nostalgia10.jpg";
+import nostalgia11 from "./full-size/nostalgia11.jpeg";
+import nostalgia12 from "./full-size/nostalgia12.jpeg";
 
 import nostalgia1thumbnail from "./thumbnails/nostalgia1thumbnail.jpg";
 import nostalgia2thumbnail from "./thumbnails/nostalgia2thumbnail.jpg";
@@ -22,6 +26,8 @@ import nostalgia7thumbnail from "./thumbnails/nostalgia7thumbnail.jpg";
 import nostalgia8thumbnail from "./thumbnails/nostalgia8thumbnail.jpg";
 import nostalgia9thumbnail from "./thumbnails/nostalgia9thumbnail.jpg";
 import nostalgia10thumbnail from "./thumbnails/nostalgia10thumbnail.jpg";
+import nostalgia11thumbnail from "./thumbnails/nostalgia11thumbnail.jpg";
+import nostalgia12thumbnail from "./thumbnails/nostalgia12thumbnail.jpg";
 
 const Nostalgia = () => {
   return (
@@ -93,7 +99,22 @@ const Nostalgia = () => {
             alt="Cinnamon Breeze - Saint Peter, Minnesota"
           />
         </a>
+
+        <a href={nostalgia11}>
+          <img
+            src={nostalgia11thumbnail}
+            alt="Slowly, We Walked - Joshua Tree, California"
+          />
+        </a>
+
+        <a href={nostalgia12}>
+          <img
+            src={nostalgia12thumbnail}
+            alt="Subtle shades - Cornwall, New York"
+          />
+        </a>
       </SRLWrapper>
+      <GoToTop />
     </section>
   );
 };
