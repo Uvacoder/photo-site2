@@ -133,14 +133,14 @@ const Tranquility = () => {
         <a href={tranquility14}>
           <img
             src={tranquility14thumbnail}
-            alt="Morning Dawning - San Diego, California"
+            alt="First Relaxations - San Diego, California"
           />
         </a>
 
         <a href={tranquility15}>
           <img
             src={tranquility15thumbnail}
-            alt="Morning Dawning - Poughkeepsie, New York"
+            alt="Below the Waves - Poughkeepsie, New York"
           />
         </a>
       </SRLWrapper>
