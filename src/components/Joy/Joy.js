@@ -117,46 +117,73 @@ const Joy = () => {
         </a>
 
         <a href={joy13}>
-          <img src={joy13thumbnail} alt="caption - Joshua Tree, California" />
+          <img
+            src={joy13thumbnail}
+            alt="Capacity for Growth - Joshua Tree, California"
+          />
         </a>
 
         <a href={joy14}>
           <img
             src={joy14thumbnail}
-            alt="caption - Coachella Valley, California"
+            alt="Beauty in the Barren - Coachella Valley, California"
           />
         </a>
 
         <a href={joy15}>
-          <img src={joy15thumbnail} alt="caption - Joshua Tree, California" />
+          <img
+            src={joy15thumbnail}
+            alt="To be Touched by the Sun -  Joshua Tree, California"
+          />
         </a>
 
         <a href={joy16}>
-          <img src={joy16thumbnail} alt="caption - Joshua Tree, California" />
+          <img
+            src={joy16thumbnail}
+            alt="True Colors - Yosemite National Park, California"
+          />
         </a>
 
         <a href={joy17}>
-          <img src={joy17thumbnail} alt="caption - Joshua Tree, California" />
+          <img
+            src={joy17thumbnail}
+            alt="Warm Fuzzy Hugs - Yosemite National Park, California"
+          />
         </a>
 
         <a href={joy18}>
-          <img src={joy18thumbnail} alt="caption - Joshua Tree, California" />
+          <img
+            src={joy18thumbnail}
+            alt="Journey - Yosemite National Park, California"
+          />
         </a>
 
         <a href={joy19}>
-          <img src={joy19thumbnail} alt="caption - Joshua Tree, California" />
+          <img
+            src={joy19thumbnail}
+            alt="1 Earthly Body - Yosemite National Park California"
+          />
         </a>
 
         <a href={joy20}>
-          <img src={joy20thumbnail} alt="caption - Joshua Tree, California" />
+          <img
+            src={joy20thumbnail}
+            alt="Dancing, Dancing, Dancing - Yosemite National Park, California"
+          />
         </a>
 
         <a href={joy21}>
-          <img src={joy21thumbnail} alt="caption - Joshua Tree, California" />
+          <img
+            src={joy21thumbnail}
+            alt="2 Earthly Bodies - Yosemite National Park, California"
+          />
         </a>
 
         <a href={joy22}>
-          <img src={joy22thumbnail} alt="caption - Joshua Tree, California" />
+          <img
+            src={joy22thumbnail}
+            alt="Glimpses of Home - Cornwall, New York"
+          />
         </a>
       </SRLWrapper>
       <GoToTop />

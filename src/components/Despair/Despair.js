@@ -62,20 +62,29 @@ const Despair = () => {
         <a href={despair7}>
           <img
             src={despair7thumbnail}
-            alt="title - Mount Pleasant, South Carolina"
+            alt="Trapped - Mount Pleasant, South Carolina"
           />
         </a>
 
         <a href={despair8}>
-          <img src={despair8thumbnail} alt="title - Santa Monica, California" />
+          <img
+            src={despair8thumbnail}
+            alt="Where to Focus? - Santa Monica, California"
+          />
         </a>
 
         <a href={despair9}>
-          <img src={despair9thumbnail} alt="title - Yosemite, California" />
+          <img
+            src={despair9thumbnail}
+            alt="Reach for Help - Yosemite National Park, California"
+          />
         </a>
 
         <a href={despair10}>
-          <img src={despair10thumbnail} alt="title - Yosemite, California" />
+          <img
+            src={despair10thumbnail}
+            alt="Out of Control - Beacon, New York"
+          />
         </a>
       </SRLWrapper>
       <GoToTop />
