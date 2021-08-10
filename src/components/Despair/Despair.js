@@ -62,7 +62,7 @@ const Despair = () => {
         <a href={despair7}>
           <img
             src={despair7thumbnail}
-            alt="Trapped - Mount Pleasant, South Carolina"
+            alt="A View From the Window - Mount Pleasant, South Carolina"
           />
         </a>
 
