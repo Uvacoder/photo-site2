@@ -90,7 +90,7 @@ const Joy = () => {
         <a href={joy8}>
           <img
             src={joy8thumbnail}
-            alt="JUMP - Mount Pleasant, South Carolina"
+            alt="JUMP! - Mount Pleasant, South Carolina"
           />
         </a>
 

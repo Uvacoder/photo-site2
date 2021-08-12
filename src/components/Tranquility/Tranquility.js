@@ -18,6 +18,8 @@ import tranquility12 from "./full-size/tranquility12.jpg";
 import tranquility13 from "./full-size/tranquility13.jpeg";
 import tranquility14 from "./full-size/tranquility14.jpeg";
 import tranquility15 from "./full-size/tranquility15.jpg";
+import tranquility16 from "./full-size/tranquility16.jpeg";
+import tranquility17 from "./full-size/tranquility17.jpeg";
 
 import tranquility1thumbnail from "./thumbnails/tranquility1thumbnail.jpg";
 import tranquility2thumbnail from "./thumbnails/tranquility2thumbnail.jpg";
@@ -34,6 +36,8 @@ import tranquility12thumbnail from "./thumbnails/tranquility12thumbnail.jpg";
 import tranquility13thumbnail from "./thumbnails/tranquility13thumbnail.jpg";
 import tranquility14thumbnail from "./thumbnails/tranquility14thumbnail.jpg";
 import tranquility15thumbnail from "./thumbnails/tranquility15thumbnail.jpg";
+import tranquility16thumbnail from "./thumbnails/tranquility16thumbnail.jpg";
+import tranquility17thumbnail from "./thumbnails/tranquility17thumbnail.jpg";
 
 const Tranquility = () => {
   return (
@@ -140,7 +144,21 @@ const Tranquility = () => {
         <a href={tranquility15}>
           <img
             src={tranquility15thumbnail}
-            alt="Below the Waves - Poughkeepsie, New York"
+            alt="River Sounds - Poughkeepsie, New York"
+          />
+        </a>
+
+        <a href={tranquility16}>
+          <img
+            src={tranquility16thumbnail}
+            alt="Interwoven - Poughkeepsie, New York"
+          />
+        </a>
+
+        <a href={tranquility17}>
+          <img
+            src={tranquility17thumbnail}
+            alt="Slow Start- Poughkeepsie, New York"
           />
         </a>
       </SRLWrapper>
